@@ -1,0 +1,13 @@
+body {
+    width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #miCanvas {
+    border: solid 1px;
+  }
+  

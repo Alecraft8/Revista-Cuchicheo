@@ -1,0 +1,289 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: #66f;
+}
+
+#titulo {
+    background: #a25;
+    font: 25px sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    border: 5px solid #eee;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+#aliprimera {
+    float:right;
+}
+
+#barra-indice li{
+    float:right;
+    font-size: 20px;
+}
+
+#barra-indice {
+    padding-right: 50px;
+}
+
+.margen {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Protest Riot', sans-serif;
+}
+
+#barra-de-navegacion {
+    position: fixed;
+    background-color: #33a;
+    width: 100%;
+}
+
+#produccion {
+    background-color: #33a;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: HighPixel, sans-serif;
+    font-size: 10px;
+}
+
+#produccion p {
+    padding:0;
+}
+
+#imagenes-efemerides {
+    width:75%;
+    margin:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    height:0%;
+    padding:0;
+}
+
+#imagenes-efemerides img {
+    width:100%;
+    height: 100%;
+}
+
+#imagenes-efemerides .invisible {
+    height:0; 
+}
+
+#imagen {
+    display: inline-block;
+    margin: auto;
+    visibility: hidden;
+}
+
+.tabla-calendario {
+    border: 1px solid #000;
+    width: 70%;
+    margin: auto;
+    height: 100px;
+}
+
+#padre-dehon {
+    width:10%;
+    display: inline-block;
+}
+
+.tabla-calendario #semana{
+    border: 1px solid #000;
+    background: #a00;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.no-margen {
+    margin-right: 50%;
+    text-decoration: none;
+}
+
+.tabla-calendario td {
+    border-right: 1px solid #000;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+p  {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caja {
+    border: 5px solid #45f;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.juego-antiguo {
+    text-decoration: none;
+    font-family: sans-serif;
+    background: #0d1;
+    padding:10px;
+    border: 1px solid #0a1;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease background;
+}
+
+.invisible {
+    visibility: hidden;
+    width:0;
+    height:0;
+}
+
+
+.boton-popup {
+    color: #fff;
+    background-color: #d12;
+    border: #a00;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3 ease background;
+    margin:auto;
+    display: inline-block;
+}
+
+.boton-popup:hover {
+    background:#922;
+}
+
+.juego-antiguo:hover {
+    background: #071;
+}
+
+.boton-imagen {
+    display: block;
+    margin:auto;
+    text-align: center;
+}
+
+#logo {
+    width: 35%;
+    display: block;
+}
+
+
+.taller {
+    width: 75%;
+    margin: auto;
+}
+
+.centrado-vertical {
+    top:30%;
+}
+
+.taller img{
+    display: inline-block;
+    width:50%;
+    border:1px solid #02a;
+}
+
+.video {
+    width:100%;
+}
+
+#lista {
+    list-style-type: none;
+    margin:auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Single Day', cursive;
+}
+
+#alejandro {
+    width:25%;
+    background-color:#2aa;
+    border-radius: 0;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    transition: 0.5 ease background;
+}
+
+#alejandro:hover {
+    background: #0aa;
+}
+
+#alejandro a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Riot Family, sans-serif;
+}
+
+#imagen {
+    margin: auto;
+}
+
+.juego-nuevo {
+    text-decoration: none;
+    font-family: sans-serif;
+    background: #55f;
+    padding:10px;
+    border: 1px solid #00f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#romper-float {
+    color: #fff;
+}
+
+/* hola*/
+#barra-menu {
+    background: #000;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+#aliprimeraurl {
+    text-decoration: none;
+    color: #f22;
+    font-family: Roboto, sans-serif;
+}
+
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+
+@media only screen and (max-width: 800px) {
+    .img, .calendario {
+        padding:0;
+        display:block;
+        width:80%;
+        margin:0 auto;
+    }
+}

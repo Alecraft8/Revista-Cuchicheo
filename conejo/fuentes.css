@@ -1,0 +1,23 @@
+@font-face {
+	font-family: Arcade;
+	src: url('Arcade.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: HighPixel;
+	src: url('high_pixel-7.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Vcr;
+	src: url("vcr-mono.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Ka-Ching;
+	src: url("ka1.ttf") format("truetype");
+}

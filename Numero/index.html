@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Adivinación de numeros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Adivina el numero</h1>
+        <p>Adivina un numero del 1 al 100:</p>
+        <p>Quedan <span id="failnumbers">10</span> intentos.</p>
+        <input id="guess" type="number" min="1" max="100">
+        <button onclick="checkGuess()" id="adivina">Adivina</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
